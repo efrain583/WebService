@@ -14,8 +14,8 @@ public class WebServiceHelper {
 		
 		logger = Logger.getLogger(suiteName);
 //		PropertyConfigurator.configure("C:\\Users\\efrain583\\dev\\WebService\\src\\test\\java\\WebService\\WebService\\log4j.properties");
-		Logger rLogger = Logger.getRootLogger();
 		Logger.getRootLogger().getLoggerRepository().resetConfiguration();
+		Logger rLogger = Logger.getRootLogger();
 		rLogger.setLevel(Level.DEBUG);
 		PatternLayout genericPatternLayout = new PatternLayout("%t %d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c %x - %m%n");
 
