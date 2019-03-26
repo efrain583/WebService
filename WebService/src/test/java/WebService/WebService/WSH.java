@@ -42,5 +42,10 @@ public class WSH {
 		WSH.logger.info("Success : " + succStatus);
 		return succStatus;
 	} 
+	
+	static public String jsonParseString(JSONObject jso, String key) {
+		return jso.getString(key);
+
+	}
 
 }

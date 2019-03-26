@@ -25,7 +25,7 @@
 			<version>6.10</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>log4j</groupId>
@@ -46,6 +46,14 @@
 			<artifactId>json</artifactId>
 			<version>20180130</version>
 		</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+
 
 	</dependencies>
 </project>
